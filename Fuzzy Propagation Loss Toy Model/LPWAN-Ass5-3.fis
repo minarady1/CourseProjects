@@ -1,0 +1,58 @@
+[System]
+Name='LPWAN-Ass5-3'
+Type='mamdani'
+Version=2.0
+NumInputs=4
+NumOutputs=1
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Tx1'
+Range=[0 6]
+NumMFs=3
+MF1='Low':'gaussmf',[0.989 5.94]
+MF2='Medium':'gaussmf',[0.9888 2.8]
+MF3='High':'gbellmf',[1.64 2.74 0.265014778012685]
+
+[Input2]
+Name='Tx2'
+Range=[0 6]
+NumMFs=3
+MF1='Low':'gaussmf',[0.989 5.93957505285412]
+MF2='Medium':'gaussmf',[0.9888 2.8]
+MF3='High':'gaussmf',[0.989 -0.00136997885835033]
+
+[Input3]
+Name='Tx3'
+Range=[0 6]
+NumMFs=3
+MF1='Low':'gaussmf',[0.989 5.96494503171247]
+MF2='Medium':'gaussmf',[0.9888 2.8]
+MF3='High':'gaussmf',[0.989 0.0259999999999994]
+
+[Input4]
+Name='Tx4'
+Range=[0 6]
+NumMFs=3
+MF1='Low':'gaussmf',[0.989 5.93957505285412]
+MF2='Medium':'gaussmf',[0.9888 2.8]
+MF3='High':'gaussmf',[0.989 0.0586849894291763]
+
+[Output1]
+Name='Evaluation'
+Range=[0 100]
+NumMFs=3
+MF1='Unacceptable':'gbellmf',[17.7 3.07 4.708]
+MF2='Acceptable':'gauss2mf',[10.4 38.78 10.4 58.9]
+MF3='Reliable':'gbellmf',[21.23 16.1 92.6]
+
+[Rules]
+3 3 3 3, 3 (1) : 2
+2 2 2 2, 2 (1) : 2
+1 1 1 1, 2 (1) : 2
+1 1 1 1, 1 (1) : 1
