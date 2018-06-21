@@ -27,9 +27,9 @@ I assume output evaluation range of 1-100, to the values: Unacceptable, Acceptab
 ## Assumed Fuzzy Inference Rules:
  In the rule system, I assume the following (basic) rules (rules may differ according to routing protocol and network purpose)
  
--        A receiver Rxi has a reliable connection if it has high signal from at least one transmitter.
--        A receiver Rxi has an acceptable connection if it has medium strength signal from at least one transmitter.
--        A receiver Rxi has an unacceptable connection if it has low strength with every other transmitter.
++ Receiver Rxi has a reliable connection if it has high signal from at least one transmitter.
++ Receiver Rxi has an acceptable connection if it has medium strength signal from at least one transmitter.
++ Receiver Rxi has an unacceptable connection if it has low strength with every other transmitter.
 
 ![alt text](https://1.bp.blogspot.com/-I6l3ID_TVeA/WRMEpPrkjKI/AAAAAAAAA5M/VHF_crHkyPQMy2RwxouFl64k81sm13o1ACEw/s1600/5.PNG)
 
