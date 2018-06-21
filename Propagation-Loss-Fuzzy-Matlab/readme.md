@@ -18,11 +18,11 @@ I created Fuzzy Inference System in the attached FIS file. I created 4 input var
 I defined Tx2, Tx3, and Tx4 to have the same signal strength. Tx1 has a larger
 I classified the output evaluation to 3 main classes: Reliable, Acceptable, Unacceptable. The final result of the evaluation is translated in the graph below. The scatter point size represents the final evaluation which should indicate the signal strength. In this case, we can see that in the final result, the signal strength at a given Rxi node is higher as it is closer to any of the Txj nodes (in red) below.   
 
-![alt text](https://1.bp.blogspot.com/-I6l3ID_TVeA/WRMEpPrkjKI/AAAAAAAAA5M/VHF_crHkyPQMy2RwxouFl64k81sm13o1ACEw/s1600/3.PNG)
+![alt text](https://1.bp.blogspot.com/-I6l3ID_TVeA/WRMEpPrkjKI/AAAAAAAAA5M/VHF_crHkyPQMy2RwxouFl64k81sm13o1ACEw/s640/3.PNG)
 ## Output Evaluation
 I assume output evaluation range of 1-100, to the values: Unacceptable, Acceptable, and Reliable as per the fuzzy representation below:
 
-![alt text](https://1.bp.blogspot.com/-I6l3ID_TVeA/WRMEpPrkjKI/AAAAAAAAA5M/VHF_crHkyPQMy2RwxouFl64k81sm13o1ACEw/s1600/4.PNG)
+![alt text](https://2.bp.blogspot.com/-LfaWKz6oD9E/WRMEpeXeSuI/AAAAAAAAA5U/0rNd4NmBD-EbDdRmQQmFRn3lHuDKJDAmgCEw/s400/4.PNG)
 
 ## Assumed Fuzzy Inference Rules:
  In the rule system, I assume the following (basic) rules (rules may differ according to routing protocol and network purpose)
@@ -31,11 +31,11 @@ I assume output evaluation range of 1-100, to the values: Unacceptable, Acceptab
 + Receiver Rxi has an acceptable connection if it has medium strength signal from at least one transmitter.
 + Receiver Rxi has an unacceptable connection if it has low strength with every other transmitter.
 
-![alt text](https://1.bp.blogspot.com/-I6l3ID_TVeA/WRMEpPrkjKI/AAAAAAAAA5M/VHF_crHkyPQMy2RwxouFl64k81sm13o1ACEw/s1600/5.PNG)
+![alt text](https://2.bp.blogspot.com/-SL7rYVLpC84/WRMEpqAj9qI/AAAAAAAAA5g/oW1th8WfuRsleulCsFBntWGToHW-gGTNACEw/s640/5.PNG)
 
 ## Simulation Result:
 
 In the simulation, I plot all Tx and Rx on the graph by their GPS coordinates. I use a scatter plot and I programmed the scatter point size to reflect the point connection evaluation. We can notice that evaluation does correspond successfully to Rx node distance to Tx. Also, Tx11  signal strength seems to be really higher and influencing more nodes relatively far, while other nodes at similar distances from other transmitters have less signal evaluation.
 
-![alt text](https://1.bp.blogspot.com/-I6l3ID_TVeA/WRMEpPrkjKI/AAAAAAAAA5M/VHF_crHkyPQMy2RwxouFl64k81sm13o1ACEw/s1600/6.PNG)
+![alt text](https://1.bp.blogspot.com/-A1Ddye1ROHE/WRMEppb0eTI/AAAAAAAAA5g/muN4ofAeXNEfNHhJuEnBguCD3Z-JsAznwCEw/s640/6.PNG)
 
