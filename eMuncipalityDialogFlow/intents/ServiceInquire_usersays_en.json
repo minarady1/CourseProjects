@@ -1,0 +1,73 @@
+[
+  {
+    "id": "f4beec90-0f95-4c62-a678-75df943fa7a3",
+    "data": [
+      {
+        "text": "How to ",
+        "userDefined": false
+      },
+      {
+        "text": "Swedish For Immigrations",
+        "alias": "Services",
+        "meta": "@Services",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1512464304
+  },
+  {
+    "id": "687e1daa-48ae-4bb1-9b66-5051eb9ad648",
+    "data": [
+      {
+        "text": "I want to apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "Residence Permit Biometrics",
+        "alias": "Services",
+        "meta": "@Services",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fe10dd4c-deae-4fb3-91c4-5b63b85684eb",
+    "data": [
+      {
+        "text": "I want to apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "Swedish For Immigrants",
+        "alias": "Services",
+        "meta": "@Services",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1512464304
+  },
+  {
+    "id": "bd28e659-2391-4b49-b10c-bdd58b87f50d",
+    "data": [
+      {
+        "text": "Where can I apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "SFI",
+        "alias": "Services",
+        "meta": "@Services",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1512464304
+  }
+]

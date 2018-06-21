@@ -1,0 +1,71 @@
+[
+  {
+    "value": "walk",
+    "synonyms": [
+      "walk"
+    ]
+  },
+  {
+    "value": "stretch",
+    "synonyms": [
+      "stretch"
+    ]
+  },
+  {
+    "value": "digest",
+    "synonyms": [
+      "digest"
+    ]
+  },
+  {
+    "value": "feeling",
+    "synonyms": [
+      "feeling"
+    ]
+  },
+  {
+    "value": "eat",
+    "synonyms": [
+      "eat",
+      "swallow",
+      "chew"
+    ]
+  },
+  {
+    "value": "sleep",
+    "synonyms": [
+      "sleep"
+    ]
+  },
+  {
+    "value": "feel",
+    "synonyms": [
+      "feel"
+    ]
+  },
+  {
+    "value": "headache",
+    "synonyms": [
+      "headache"
+    ]
+  },
+  {
+    "value": "hear",
+    "synonyms": [
+      "hear"
+    ]
+  },
+  {
+    "value": "see",
+    "synonyms": [
+      "see"
+    ]
+  },
+  {
+    "value": "breathe",
+    "synonyms": [
+      "breath",
+      "breathing"
+    ]
+  }
+]

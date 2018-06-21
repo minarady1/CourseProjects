@@ -1,0 +1,51 @@
+{
+  "id": "4ba625fa-6407-4b04-a3ff-0f8147daf60b",
+  "name": "ServiceInquire",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ServiceInquire-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "79d42068-dcab-41ed-b5df-30fe7161e3de",
+          "required": true,
+          "dataType": "@Services",
+          "name": "Services",
+          "value": "$Services",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which Service are you interested in?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1512464304,
+  "fallbackIntent": false,
+  "events": []
+}

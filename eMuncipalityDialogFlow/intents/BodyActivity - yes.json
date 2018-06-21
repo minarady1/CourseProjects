@@ -1,0 +1,35 @@
+{
+  "id": "7bf5b0db-1193-450a-9095-91e142eae37f",
+  "parentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "rootParentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "name": "BodyActivity - yes",
+  "auto": true,
+  "contexts": [
+    "BodyActivity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BodyActivity.BodyActivity-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Alright, I will put you in touch with Michael, we hope you get better soon!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": []
+}

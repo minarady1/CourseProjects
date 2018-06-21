@@ -1,0 +1,36 @@
+[
+  {
+    "id": "fb3f8107-4255-4b79-bec6-b5794c5b059a",
+    "data": [
+      {
+        "text": "what time does the market open?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4592d62f-8537-455e-973a-18db7fa545ad",
+    "data": [
+      {
+        "text": "When is the supermarket going to open?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511633418
+  },
+  {
+    "id": "e5c6b237-3c34-4b99-a54c-3c5fc9f136ea",
+    "data": [
+      {
+        "text": "what are opening hours for the market?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

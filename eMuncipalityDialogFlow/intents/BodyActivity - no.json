@@ -1,0 +1,41 @@
+{
+  "id": "900990c8-c9e0-4bd9-82ef-10ba159fa0ed",
+  "parentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "rootParentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "name": "BodyActivity - no",
+  "auto": true,
+  "contexts": [
+    "BodyActivity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BodyActivity.BodyActivity-no",
+      "affectedContexts": [
+        {
+          "name": "BodyActivity-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "But you really need to have to take your medicine. I know medicine can be annoying, but it will help you get better for your family! Your daughter would be really happy if you take your medicine. Would you please take your medicine?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124745,
+  "fallbackIntent": false,
+  "events": []
+}

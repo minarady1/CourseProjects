@@ -1,0 +1,35 @@
+{
+  "id": "a4e71b14-f1e7-44fd-969c-058c964fc7cd",
+  "parentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "rootParentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "name": "BodyActivity - dont know",
+  "auto": true,
+  "contexts": [
+    "BodyActivity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BodyActivity.BodyActivity-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh it is ok, don\u0027t worry! Can you check today\u0027s pills box? if it is empty, then you took it! don\u0027t worry! otherwise, take it and you will be better."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124777,
+  "fallbackIntent": false,
+  "events": []
+}

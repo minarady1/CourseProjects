@@ -1,0 +1,117 @@
+{
+  "description": "",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "arcticchallenge-187110",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "1a61b3eb-7b71-40a4-97cb-4a953e3e6d99",
+        "signInRequired": false
+      },
+      {
+        "intentId": "9e5e91c5-2bb7-4caa-b690-578356ad0c9d",
+        "signInRequired": false
+      },
+      {
+        "intentId": "900990c8-c9e0-4bd9-82ef-10ba159fa0ed",
+        "signInRequired": false
+      },
+      {
+        "intentId": "a4e71b14-f1e7-44fd-969c-058c964fc7cd",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+        "signInRequired": false
+      },
+      {
+        "intentId": "f6a7e920-2ed5-4565-955f-9b09182045a3",
+        "signInRequired": false
+      },
+      {
+        "intentId": "fe72cf35-d775-4f6d-8b1c-567c89bf628a",
+        "signInRequired": false
+      },
+      {
+        "intentId": "6830c680-d24a-4b66-8bf7-a43bea4422f6",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0badec09-3511-46dd-aaa2-e571da774d08",
+        "signInRequired": false
+      },
+      {
+        "intentId": "7bf5b0db-1193-450a-9095-91e142eae37f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "46b857f4-4eb4-4fa6-a182-bd34f1fd2543",
+        "signInRequired": false
+      },
+      {
+        "intentId": "8f14dea1-575c-45ff-b656-35afe5763b19",
+        "signInRequired": false
+      },
+      {
+        "intentId": "8d052075-91e4-4ea5-a689-ff83dc85f6da",
+        "signInRequired": false
+      },
+      {
+        "intentId": "27c90f8a-3dc4-4489-8bdf-851769fbda69",
+        "signInRequired": false
+      },
+      {
+        "intentId": "95263473-adeb-42ba-b4f1-a8bfddf51803",
+        "signInRequired": false
+      },
+      {
+        "intentId": "fff4f4a4-7905-468f-a13e-11dbb6d50d79",
+        "signInRequired": false
+      },
+      {
+        "intentId": "4ba625fa-6407-4b04-a3ff-0f8147daf60b",
+        "signInRequired": false
+      },
+      {
+        "intentId": "1a6286af-2543-44a0-8142-2760d20bcc30",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Europe/Madrid",
+  "webhook": {
+    "url": "https://minarady.me/api.php?method\u003dDFAPI",
+    "headers": {
+      "": "",
+      "birth": "1989",
+      "user": "2000"
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v1legacy"
+}

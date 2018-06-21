@@ -1,0 +1,30 @@
+{
+  "id": "9ed78c28-4c2a-4fb2-aa4c-d2dbc1a0dfd2",
+  "name": "shop today",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The supermarket is open from 9 to 18. I can call your son if you prefer to do your shopping if you wish. But otherwise, check the weather outside before you go out. Have an amazing day!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511633418,
+  "fallbackIntent": false,
+  "events": []
+}

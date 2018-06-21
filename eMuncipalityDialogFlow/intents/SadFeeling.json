@@ -1,0 +1,49 @@
+{
+  "id": "46b857f4-4eb4-4fa6-a182-bd34f1fd2543",
+  "name": "SadFeeling",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "80993cf4-5e8d-4723-91e3-cd48536386bc",
+          "required": true,
+          "dataType": "@SadFeeling",
+          "name": "SadFeeling",
+          "value": "$SadFeeling",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What are you feeling?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Why be so $SadFeeling? you know, you actually have three delicious meals a day. There is also a lot of coffee and march mellows especially for you in the kitchen. Isn\u0027t this all that child is interested in?. cheer up! your family loves you.",
+            "You know, there is also a lot of coffee and march mellows especially for you in the kitchen. Why be so $SadFeeling? and you actually have three delicious meals a day. Isn\u0027t this all that child is interested in? cheer up! your family loves you, I wish I could share those marsh mellows."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511645953,
+  "fallbackIntent": false,
+  "events": []
+}

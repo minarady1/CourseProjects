@@ -1,0 +1,56 @@
+[
+  {
+    "value": "liver",
+    "synonyms": [
+      "liver"
+    ]
+  },
+  {
+    "value": "head",
+    "synonyms": [
+      "head"
+    ]
+  },
+  {
+    "value": "foot",
+    "synonyms": [
+      "foot"
+    ]
+  },
+  {
+    "value": "kidney",
+    "synonyms": [
+      "kidney"
+    ]
+  },
+  {
+    "value": "ankle",
+    "synonyms": [
+      "ankle"
+    ]
+  },
+  {
+    "value": "stomach",
+    "synonyms": [
+      "stomach"
+    ]
+  },
+  {
+    "value": "lung",
+    "synonyms": [
+      "lung"
+    ]
+  },
+  {
+    "value": "chest",
+    "synonyms": [
+      "chest"
+    ]
+  },
+  {
+    "value": "heart",
+    "synonyms": [
+      "heart"
+    ]
+  }
+]

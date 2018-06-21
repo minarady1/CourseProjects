@@ -1,0 +1,33 @@
+{
+  "id": "52a93840-b4e8-4eea-817c-c75862bf7f30",
+  "parentId": "7942dd16-d55a-4189-a32f-687bd193c131",
+  "rootParentId": "7942dd16-d55a-4189-a32f-687bd193c131",
+  "name": "Default Fallback Intent - fallback",
+  "auto": false,
+  "contexts": [
+    "DefaultFallbackIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultFallbackIntent.DefaultFallbackIntent-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It seems I still didn\u0027t get what you said, Let me transfer you to our Care specialist"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fff4f4a4-7905-468f-a13e-11dbb6d50d79",
+  "name": "That is allGoogleThank you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You are welcome my friend!. Thank you everyone for listening and have a nice day!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511658084,
+  "fallbackIntent": false,
+  "events": []
+}

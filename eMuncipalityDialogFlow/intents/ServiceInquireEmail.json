@@ -1,0 +1,54 @@
+{
+  "id": "1a6286af-2543-44a0-8142-2760d20bcc30",
+  "parentId": "4ba625fa-6407-4b04-a3ff-0f8147daf60b",
+  "rootParentId": "4ba625fa-6407-4b04-a3ff-0f8147daf60b",
+  "name": "ServiceInquireEmail",
+  "auto": true,
+  "contexts": [
+    "ServiceInquire-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ServiceInquire.ServiceInquire-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a36990af-7a26-4ba8-8622-0581fbc201f8",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "Email",
+          "value": "true",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "001da3cc-3140-4bf1-8652-2fc8cdb3a307",
+          "required": false,
+          "dataType": "@Services",
+          "name": "Services",
+          "value": "#ServiceInquire-followup.Services",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": []
+}

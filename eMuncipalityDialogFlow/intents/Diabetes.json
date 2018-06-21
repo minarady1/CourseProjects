@@ -1,0 +1,51 @@
+{
+  "id": "27c90f8a-3dc4-4489-8bdf-851769fbda69",
+  "name": "Diabetes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Diabetes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f12b9ac6-d77d-44f7-add1-539c9fad942c",
+          "required": true,
+          "dataType": "@DiabetesSideEffect",
+          "name": "DiabetesSideEffect",
+          "value": "$DiabetesSideEffect",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How do you feel?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This is likely related to diabetes. Do you require any assistance with Insulin?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511653106,
+  "fallbackIntent": false,
+  "events": []
+}

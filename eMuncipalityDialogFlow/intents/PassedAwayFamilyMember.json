@@ -1,0 +1,39 @@
+{
+  "id": "f6a7e920-2ed5-4565-955f-9b09182045a3",
+  "name": "PassedAwayFamilyMember",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4ac8befa-40c1-402c-8e76-76d17ca32130",
+          "required": false,
+          "dataType": "@PassedAwayFamilyMember",
+          "name": "PassedAwayFamilyMember",
+          "value": "$PassedAwayFamilyMember",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You know, $PassedAwayFamilyMember is in a very beautiful place right now. where there is no pain. I know you love $PassedAwayFamilyMember so much but $PassedAwayFamilyMember is so happy and wants you to be happy as well. Did you see the weather outside? how does the flower in the balcony look now?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511644869,
+  "fallbackIntent": false,
+  "events": []
+}

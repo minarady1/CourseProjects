@@ -1,0 +1,46 @@
+{
+  "id": "6830c680-d24a-4b66-8bf7-a43bea4422f6",
+  "name": "WhereAmI",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f343132d-4c04-4dc2-97b2-ef5d26e316cd",
+          "required": false,
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "Don\u0027t worry, you are at home!, and it is a beautiful day today! It is #date",
+          "displayText": "Don not worry, you are at home!,  you are safe and you look really beautiful today!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Don\u0027t worry, you are at home!,  you are safe and you look really beautiful today!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511643698,
+  "fallbackIntent": false,
+  "events": []
+}

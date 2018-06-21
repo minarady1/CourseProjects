@@ -1,0 +1,32 @@
+[
+  {
+    "value": "Down",
+    "synonyms": [
+      "Down"
+    ]
+  },
+  {
+    "value": "Sad",
+    "synonyms": [
+      "Sad"
+    ]
+  },
+  {
+    "value": "Empty",
+    "synonyms": [
+      "Empty"
+    ]
+  },
+  {
+    "value": "Broken",
+    "synonyms": [
+      "Broken"
+    ]
+  },
+  {
+    "value": "Depressed",
+    "synonyms": [
+      "Depressed"
+    ]
+  }
+]

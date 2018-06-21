@@ -1,0 +1,56 @@
+[
+  {
+    "id": "d48cc2a9-69d7-4011-8e9d-e5ecbbc6c9a1",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "SadFeeling",
+        "meta": "@SadFeeling",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511645953
+  },
+  {
+    "id": "7e7ed64c-5e9d-4c2e-be67-cd82fd4f8c85",
+    "data": [
+      {
+        "text": "I feel so ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "SadFeeling",
+        "meta": "@SadFeeling",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511645953
+  },
+  {
+    "id": "5e826610-f7d1-4ea5-9480-7c12248df42b",
+    "data": [
+      {
+        "text": "I don\u0027t why am I so ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "SadFeeling",
+        "meta": "@SadFeeling",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511645953
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "1a61b3eb-7b71-40a4-97cb-4a953e3e6d99",
+  "name": "PensionDate",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "How else can we help you?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your payment will be made in two days. Otherwise, how are you feeling today?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How else can we help you?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511631697,
+  "fallbackIntent": false,
+  "events": []
+}

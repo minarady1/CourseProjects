@@ -1,0 +1,35 @@
+{
+  "id": "8d052075-91e4-4ea5-a689-ff83dc85f6da",
+  "parentId": "27c90f8a-3dc4-4489-8bdf-851769fbda69",
+  "rootParentId": "27c90f8a-3dc4-4489-8bdf-851769fbda69",
+  "name": "Diabetes - no",
+  "auto": true,
+  "contexts": [
+    "Diabetes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diabetes.Diabetes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Then it is probably because you did not take your medicine. Go ahead and take your pills and rest well today. Soon you will be fine and you will be so much better!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124745,
+  "fallbackIntent": false,
+  "events": []
+}

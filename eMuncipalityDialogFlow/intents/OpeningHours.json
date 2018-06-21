@@ -1,0 +1,28 @@
+{
+  "id": "9e5e91c5-2bb7-4caa-b690-578356ad0c9d",
+  "name": "OpeningHours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Municipality is open every day from 9 until 14 for all clients, is there anything we can help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511639644,
+  "fallbackIntent": false,
+  "events": []
+}

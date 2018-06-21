@@ -1,0 +1,53 @@
+[
+  {
+    "value": "Pasta",
+    "synonyms": [
+      "Pasta"
+    ]
+  },
+  {
+    "value": "Rice",
+    "synonyms": [
+      "Rice"
+    ]
+  },
+  {
+    "value": "Food",
+    "synonyms": [
+      "Food"
+    ]
+  },
+  {
+    "value": "Meat",
+    "synonyms": [
+      "Chicken",
+      "Ham",
+      "Turkey"
+    ]
+  },
+  {
+    "value": "Chockolate",
+    "synonyms": [
+      "Chockolate",
+      "chocolate"
+    ]
+  },
+  {
+    "value": "Sandwich",
+    "synonyms": [
+      "Sandwich"
+    ]
+  },
+  {
+    "value": "French Fries",
+    "synonyms": [
+      "French Fries"
+    ]
+  },
+  {
+    "value": "Potatos",
+    "synonyms": [
+      "Potatos"
+    ]
+  }
+]

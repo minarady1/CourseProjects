@@ -1,0 +1,27 @@
+[
+  {
+    "value": "RPBiometrics",
+    "synonyms": [
+      "Residence Permit Biometrics",
+      "Biometrics RP",
+      "Fingerprints Residence Pemit",
+      "RP biometrics",
+      "Biometrics Appiontment",
+      "Immigration Biometrics"
+    ]
+  },
+  {
+    "value": "SFI",
+    "synonyms": [
+      "SFI",
+      "Swedish For Immigrants"
+    ]
+  },
+  {
+    "value": "Children Education",
+    "synonyms": [
+      "Children Education",
+      "Preschool Place apply"
+    ]
+  }
+]

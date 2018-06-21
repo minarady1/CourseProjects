@@ -1,0 +1,97 @@
+[
+  {
+    "id": "9020ab69-feac-4a41-87e7-fba4633cf40f",
+    "data": [
+      {
+        "text": "I feel pain in my ",
+        "userDefined": false
+      },
+      {
+        "text": "chest",
+        "alias": "BodyPart",
+        "meta": "@BodyPart",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "f2152cca-cad1-471e-ab7b-d6e25afff6f8",
+    "data": [
+      {
+        "text": "I have strong pain in the ",
+        "userDefined": false
+      },
+      {
+        "text": "chest",
+        "alias": "BodyPart",
+        "meta": "@BodyPart",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ac3f9e66-e204-4abb-85e9-e86d2bfadf3e",
+    "data": [
+      {
+        "text": "I struggle with ",
+        "userDefined": false
+      },
+      {
+        "text": "feeling",
+        "alias": "BodyActivity",
+        "meta": "@BodyActivity",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511640665
+  },
+  {
+    "id": "762314a5-3e79-4a41-b895-8104fcdd41ec",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "stomach",
+        "alias": "BodyPart",
+        "meta": "@BodyPart",
+        "userDefined": true
+      },
+      {
+        "text": " hurts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "33c168b9-21c8-46bb-9566-caa6ecf13ae6",
+    "data": [
+      {
+        "text": "I can\u0027t ",
+        "userDefined": false
+      },
+      {
+        "text": "feel",
+        "alias": "BodyActivity",
+        "meta": "@BodyActivity",
+        "userDefined": true
+      },
+      {
+        "text": " at all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511640665
+  }
+]

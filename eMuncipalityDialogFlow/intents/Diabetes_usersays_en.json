@@ -1,0 +1,51 @@
+[
+  {
+    "id": "b565cd5f-db43-447c-a901-b14761ab5340",
+    "data": [
+      {
+        "text": "I think I have ",
+        "userDefined": false
+      },
+      {
+        "text": "dizziness",
+        "alias": "DiabetesSideEffect",
+        "meta": "@DiabetesSideEffect",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511653106
+  },
+  {
+    "id": "5e0bd769-8959-4a09-a775-f2251f1acfa4",
+    "data": [
+      {
+        "text": "my tongue is dry",
+        "alias": "DiabetesSideEffect",
+        "meta": "@DiabetesSideEffect",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ce024d42-d8b0-45c4-b017-995c7265c8df",
+    "data": [
+      {
+        "text": "I feel ",
+        "userDefined": false
+      },
+      {
+        "text": "dizzy",
+        "alias": "DiabetesSideEffect",
+        "meta": "@DiabetesSideEffect",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511653106
+  }
+]

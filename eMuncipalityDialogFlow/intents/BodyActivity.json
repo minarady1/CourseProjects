@@ -1,0 +1,73 @@
+{
+  "id": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "name": "BodyActivity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BodyActivity-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a955b77c-9ec8-41f7-9a12-3ee72fe68833",
+          "required": false,
+          "dataType": "@BodyActivity",
+          "name": "BodyActivity",
+          "value": "$BodyActivity",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How are you feeling exactly?"
+            },
+            {
+              "lang": "en",
+              "value": "How did you feel like that?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "6eaa0f73-1e93-496a-bf6d-9822ba68e804",
+          "required": true,
+          "dataType": "@BodyPart",
+          "name": "BodyPart",
+          "value": "$BodyPart",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which part is the pain mostly?"
+            },
+            {
+              "lang": "en",
+              "value": "Which part of your body you feel the pain mostly?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I really hope your $BodyPart gets better soon! I can transfer you to someone who is specialized in $BodyPart. Have you taken your medicine today?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511640665,
+  "fallbackIntent": false,
+  "events": []
+}

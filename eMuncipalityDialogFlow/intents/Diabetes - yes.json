@@ -1,0 +1,41 @@
+{
+  "id": "8f14dea1-575c-45ff-b656-35afe5763b19",
+  "parentId": "27c90f8a-3dc4-4489-8bdf-851769fbda69",
+  "rootParentId": "27c90f8a-3dc4-4489-8bdf-851769fbda69",
+  "name": "Diabetes - yes",
+  "auto": true,
+  "contexts": [
+    "Diabetes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diabetes.Diabetes-yes",
+      "affectedContexts": [
+        {
+          "name": "Diabetes-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK, I will contact you with Mark from the municipality right away, meanwhile, please rest and drink enough water."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": []
+}

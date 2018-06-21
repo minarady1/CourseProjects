@@ -1,0 +1,35 @@
+{
+  "id": "0badec09-3511-46dd-aaa2-e571da774d08",
+  "parentId": "900990c8-c9e0-4bd9-82ef-10ba159fa0ed",
+  "rootParentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "name": "BodyActivity - no - no",
+  "auto": true,
+  "contexts": [
+    "BodyActivity-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BodyActivity.BodyActivity-no.BodyActivity-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK I will put you in touch with Mark from the municipality, stay on hold."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124745,
+  "fallbackIntent": false,
+  "events": []
+}

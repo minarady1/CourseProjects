@@ -1,0 +1,53 @@
+{
+  "id": "95263473-adeb-42ba-b4f1-a8bfddf51803",
+  "name": "Food",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "68ec4f51-a8e0-4763-ac82-33e2e0482cf2",
+          "required": true,
+          "dataType": "@Food",
+          "name": "Food",
+          "value": "$Food",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What would you prefer to eat?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5149d01b-683a-474a-ac2b-f9d8749fa371",
+          "required": false,
+          "dataType": "@BodyActivity",
+          "name": "BodyActivity",
+          "value": "$BodyActivity",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh, you will find all your favorite $Food in the kitchen fridge. Enjoy your $Food my friend!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511654412,
+  "fallbackIntent": false,
+  "events": []
+}

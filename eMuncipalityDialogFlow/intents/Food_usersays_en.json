@@ -1,0 +1,78 @@
+[
+  {
+    "id": "88f64f5d-f2d2-4688-9876-e52bb6973ccc",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "eat",
+        "alias": "BodyActivity",
+        "meta": "@BodyActivity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "food",
+        "alias": "Food",
+        "meta": "@Food",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511654412
+  },
+  {
+    "id": "96d17042-86c8-4f28-9cd0-abb547b1afbf",
+    "data": [
+      {
+        "text": " I need ",
+        "userDefined": false
+      },
+      {
+        "text": "food",
+        "alias": "Food",
+        "meta": "@Food",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511654412
+  },
+  {
+    "id": "225cdf86-b8ab-4097-9819-4100871377b7",
+    "data": [
+      {
+        "text": "I am hungry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511654412
+  },
+  {
+    "id": "1d762a54-1abf-4db7-8120-53ea92a8af7c",
+    "data": [
+      {
+        "text": "where can I get ",
+        "userDefined": false
+      },
+      {
+        "text": "food",
+        "alias": "Food",
+        "meta": "@Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511654412
+  }
+]

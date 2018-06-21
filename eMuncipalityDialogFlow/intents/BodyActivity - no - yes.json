@@ -1,0 +1,35 @@
+{
+  "id": "fe72cf35-d775-4f6d-8b1c-567c89bf628a",
+  "parentId": "900990c8-c9e0-4bd9-82ef-10ba159fa0ed",
+  "rootParentId": "ac50e5ce-ea14-4fba-ab3d-883306c18c62",
+  "name": "BodyActivity - no - yes",
+  "auto": true,
+  "contexts": [
+    "BodyActivity-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BodyActivity.BodyActivity-no.BodyActivity-no-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This is very nice to hear! Have a very nice day indeed!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": []
+}

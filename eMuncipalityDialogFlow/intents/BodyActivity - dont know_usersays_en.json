@@ -1,0 +1,35 @@
+[
+  {
+    "id": "f5bf4bde-9c93-42e4-9a3c-321ee85ad7f3",
+    "data": [
+      {
+        "text": "I really forgot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "47309cff-1f2f-4a6f-a75b-4a50887811cc",
+    "data": [
+      {
+        "text": "I can\u0027t remember",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "880032d2-d0f5-4eb0-a808-e3b6fd7f660e",
+    "data": [
+      {
+        "text": "I don\u0027t know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
