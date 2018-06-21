@@ -1,3 +1,13 @@
+/*
+An Attack Agent by Java Jade. Done for Distributed Network Programming course at LTU. Sorry for lack of documentation at the moment, but the code is mainly composed of two classes: 
+- Gui class: which contains the gui that allows the user to speicfy the target of the attack and the number of agents
+- Agent class: which contains the traffic generation code. 
+
+By Mina Rady and Madhubala Ghanesan
+
+
+*/
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
