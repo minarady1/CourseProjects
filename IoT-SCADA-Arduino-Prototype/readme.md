@@ -3,11 +3,11 @@ The prototype performs production line semi-automated steering as it allows manu
 It provides remote monitoring, detection and response to leakage, over-heating or fire based as it transmits sensor readings over Ethernet Interface for web access. 
 
 ## System Components
-[IMAGE ALT TEXT](https://github.com/minarady1/CourseProjects/blob/master/IoT-SCADA-Arduino-Prototype/Components.PNG)
-[IMAGE ALT TEXT](https://github.com/minarady1/CourseProjects/blob/master/IoT-SCADA-Arduino-Prototype/MonitoringInterface.PNG)
+![alt text](https://github.com/minarady1/CourseProjects/blob/master/IoT-SCADA-Arduino-Prototype/Components.PNG)
+![alt text](https://github.com/minarady1/CourseProjects/blob/master/IoT-SCADA-Arduino-Prototype/MonitoringInterface.PNG)
 
 ## SCADA Live Monitoring Interface
-[IMAGE ALT TEXT](https://github.com/minarady1/CourseProjects/blob/master/IoT-SCADA-Arduino-Prototype/MonitoringInterfaceBig.PNG)
+![alt text](https://github.com/minarady1/CourseProjects/blob/master/IoT-SCADA-Arduino-Prototype/MonitoringInterfaceBig.PNG)
 
 ## Live Demo Presentation Recording
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/ykH6xasVjto/0.jpg)](http://www.youtube.com/watch?v=ykH6xasVjto "SCADA Toy Prototype for PERCCOM Hackathon")
