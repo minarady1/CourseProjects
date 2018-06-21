@@ -11,28 +11,28 @@
 **After meeting:** the system waits for motion detection to report no-motion and then it turns powers off devices in the room. 
 
 **Security monitoring:** the system monitors unauthorized access in the room through motion detection and door status. Whenever a meeting room is not occupied and no meeting is held, unexpected access to the room will alert the facility administrator by sending an email. 
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/Physical%20Architecture.PNG)
+![alt text](Physical%20Architecture.PNG)
 ## Sample Demo Screenshots:
 ### Google Calendar Integration
 In this example, we show collaborative reservation by two different users from their accounts to the meeting room at two different times. 
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/Calendar.PNG)
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/Calendar2.PNG)
+![alt text](Calendar.PNG)
+![alt text](Calendar2.PNG)
 ### Room Status Display
 Showing status and upcoming reservations. In the updated version on this release, there is additional active controls for appliances
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/Sample%20Display.PNG)
+![alt text](Sample%20Display.PNG)
 ### Email Warning System:
 The system successfully reports by email the exact time when an unauthorized presence is detected (in this example, door was detected to be open outside of meeting room reservation schedule).
 
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/Warning%20Automatic%20Email.PNG)
+![alt text](Warning%20Automatic%20Email.PNG)
 
 
 ## Context
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/slides/Slide4.PNG)
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/slides/Slide5.PNG)
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/slides/Slide9.PNG)
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/slides/Slide10.PNG)
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/slides/Slide12.PNG)
-![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/slides/Slide13.PNG)
+![alt text](Slide4.PNG)
+![alt text](Slide5.PNG)
+![alt text](Slide9.PNG)
+![alt text](Slide10.PNG)
+![alt text](Slide12.PNG)
+![alt text](Slide13.PNG)
 
 ## Hardware Components
  We have integrated the following hardware components:
