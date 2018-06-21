@@ -1,4 +1,5 @@
-#Welcom!
+# Welcom!
+
 Hello, Welcome to my development portfolio. It consists of samples of work done, successgully, either for course project or hackathons. Each of this work has been demonstrated live at one point or another and some was demonstrated to a fairly large audience!. 
 
 There is currently two sections: 
