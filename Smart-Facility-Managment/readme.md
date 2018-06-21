@@ -3,10 +3,14 @@
  Based on FHEM Home Automation Platform and FS20 sensors, we created a service layer above sensors such as temperature, door, and motion and electric switch actuators. Base on calendar reservations, the system enables electrical devices. System would send email alarms if motion detected or door opened during unscheduled room time (unauthorized access) and system would ensure lights are off during unreserved room times.
  
 ## Usecases
-●	**Pre-meeting:** our system synchronizes with existing organizational and personal calendar systems with (iCal format) such as Google Calendar. Consequently, all room automation actions are done according to that calendar. Moreover, as long as room is unoccupied, the system displays the upcoming schedule of reservation during the day.
-●	**During meeting:** system monitors and displays room comfort settings (temperature and humidity). Furthermore, it displays the current meeting subject as defined in the organizational calendar entry during reservation.
-●	**After meeting:** the system waits for motion detection to report no-motion and then it turns powers off devices in the room. 
-●	**Security monitoring:** the system monitors unauthorized access in the room through motion detection and door status. Whenever a meeting room is not occupied and no meeting is held, unexpected access to the room will alert the facility administrator by sending an email. 
+
+**Pre-meeting:** our system synchronizes with existing organizational and personal calendar systems with (iCal format) such as Google Calendar. Consequently, all room automation actions are done according to that calendar. Moreover, as long as room is unoccupied, the system displays the upcoming schedule of reservation during the day.
+
+**During meeting:** system monitors and displays room comfort settings (temperature and humidity). Furthermore, it displays the current meeting subject as defined in the organizational calendar entry during reservation.
+
+**After meeting:** the system waits for motion detection to report no-motion and then it turns powers off devices in the room. 
+
+**Security monitoring:** the system monitors unauthorized access in the room through motion detection and door status. Whenever a meeting room is not occupied and no meeting is held, unexpected access to the room will alert the facility administrator by sending an email. 
 ![alt text](https://github.com/minarady1/CourseProjects/blob/master/Smart-Facility-Managment/Physical%20Architecture.PNG)
 ## Sample Demo Screenshots:
 ### Google Calendar Integration
