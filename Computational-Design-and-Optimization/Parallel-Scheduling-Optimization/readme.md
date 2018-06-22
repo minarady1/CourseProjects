@@ -7,5 +7,4 @@ Here you can find two approaches for parallel task scheduling:
 In the code file `Parallel-Task-Scheduling-ILP.m` you can find solution to the problem in ILP approach which finds the global optimum assignment, if available. 
 
 ## Longest Process Time Heuristic
-This simple heuristic iterates on the processes and automatically assigns the next longest time task to the least occupied processor (round-robin)
-
+This simple heuristic in the file `Parallel-Task-Scheduling-LPT-Heuristic.m` iterates on the processes and automatically assigns the next longest time task to the least occupied processor (round-robin)
