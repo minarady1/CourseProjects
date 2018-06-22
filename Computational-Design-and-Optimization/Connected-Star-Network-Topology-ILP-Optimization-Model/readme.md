@@ -6,7 +6,7 @@ Optimization model that aims minimizing an objective variable of network quality
 Rady Mina, Hafeez Maryam, Ali, S.A.R, “Computational Methods for Network-Specific and Network-Agnostic IoT Low Power Wide Area Networks (LPWAN)” [pending review: IEEE IoT Journal]. 2018 
 
 The model can be formalized as:
-![alt text](Model.png)
+![alt text](Model.PNG)
 
 The file `MatlabVars.mat` contains sample network input (relative RSSIs among sample some GWs and some EDs) which the code wil use to provide the optimal link assignment matrix. The code should provide this output in the console:
 ```
