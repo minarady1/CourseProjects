@@ -27,12 +27,12 @@ The system successfully reports by email the exact time when an unauthorized pre
 
 
 ## Context
-![alt text](Slide4.PNG)
-![alt text](Slide5.PNG)
-![alt text](Slide9.PNG)
-![alt text](Slide10.PNG)
-![alt text](Slide12.PNG)
-![alt text](Slide13.PNG)
+![alt text](slides/Slide4.PNG)
+![alt text](slides/Slide5.PNG)
+![alt text](slides/Slide9.PNG)
+![alt text](slides/Slide10.PNG)
+![alt text](slides/Slide12.PNG)
+![alt text](slides/Slide13.PNG)
 
 ## Hardware Components
  We have integrated the following hardware components:
