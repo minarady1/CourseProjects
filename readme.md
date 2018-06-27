@@ -17,7 +17,9 @@ There is currently three sections:
   + Optimization of Parallel Task Scehduling (heuristic/ILP)
   + Optimization of connected-star network topology
   + Propagation Loss Modelling using Fuzzy Inference System in Matlab
-
++ Design: GUI and Graphics Design (under construction)
+  + 3D Model of DNA Helix in MaxScript.
+  + Qt GUI Directory (Under Construction- currently only hello world example)
   
   
  Don't hesitate to message me for any inquireies! Thank you
